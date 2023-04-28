@@ -11,8 +11,10 @@ public class task3 {
             case "/": {
                 if (num2 == 0)
                     return "Делить на 0 нельзя";
-                else
-                    return Float.toString(num1 / num2);
+                else{
+                    int tmp = num1 / num2;
+                    return Integer.toString(tmp);
+                }
             }
             case "+":
                 return Integer.toString(num1 + num2);
