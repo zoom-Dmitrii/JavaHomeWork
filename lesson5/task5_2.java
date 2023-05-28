@@ -7,10 +7,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.TreeMap;
 import java.util.stream.Collectors;
-
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 
 public class task5_2 {
 
